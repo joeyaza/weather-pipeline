@@ -1,0 +1,14 @@
+{"namespace": "weather_record.avro",
+ "type": "record",
+ "name": "Weather",
+ "fields": [
+    {"name": "location", "type": "string"},
+     {"name": "summary", "type": "string"},
+     {"name": "has_precipitation",  "type": "boolean"},
+     {"name": "temperature", "type": "float"},
+     {"name": "year", "type": "string"},
+     {"name": "month", "type": "string"},
+     {"name": "day", "type": "string"},
+     {"name": "hour", "type": "string"}
+ ]
+}
